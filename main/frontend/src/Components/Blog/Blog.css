@@ -1,0 +1,52 @@
+#blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 650px;
+}
+
+#blog-header {
+  position: relative;
+  top: -200px;
+  left: 480px;
+}
+
+#blog-subtitle {
+  color: gray;
+  position: relative;
+  left: 35px;
+  top: -15px;
+}
+
+#blogs {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  position: relative;
+  top: 320px;
+}
+
+#blog-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+}
+
+#blog-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+}
+
+#blog-3 {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+}
