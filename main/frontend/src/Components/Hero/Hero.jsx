@@ -1,25 +1,16 @@
 import React from 'react'
 import hero_image from '../Assets/hero_longtail.png'
-import arrow from '../Icons/right-arrow.png'
 import './Hero.css'
 
 const Hero = () => {
   return (
-    <div className='hero'>
-        <div className="hero-left">
-            <h2>New Arrivals Bi-Weekly</h2>
-            <div>
-                <p>new</p>
-                <p>selections</p>
-                <p>for everyone</p>
-            </div>
-            <div className='hero-button'>
-                <div>Latetest Selection</div>
-                <img src={arrow} alt="hero" />
-            </div>
+    <div id="hero-container">
+        <div id="hero-text">
+            <h1 id="hero1">Halfmoon Betta</h1>
+            <button id="hero-button">Shop Now</button>
         </div>
-        <div className='hero-right'>
-            <img src={hero_image} alt="hero" />
+        <div id="hero-img">
+            <img id="hero-image" src={hero_image} alt="hero-betta" />
         </div>
     </div>
   )

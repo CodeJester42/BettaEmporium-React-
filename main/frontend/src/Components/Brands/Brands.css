@@ -1,0 +1,13 @@
+.brands-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgb(216, 216, 216);
+  height: 150px;
+}
+
+.brands-container img {
+  height: 100px;
+}
